@@ -3,5 +3,16 @@
     public class HomeIndexViewModel
     {
         public string VideoUrl { get; set; }
+
+
+        /// <summary>
+        /// Metadata
+        /// </summary>
+        public string Title { get; set; }
+
+        public TimeSpan Duration { get; set; }
+
+        public string Author { get; set; }
+
     }
 }
